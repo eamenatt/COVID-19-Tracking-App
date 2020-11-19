@@ -1,9 +1,6 @@
 const axios = require("axios");
 
 class StateSearch {
-  constructor() {
-    //do nothing
-  }
   buildUrl(state) {
     return `https://api.covidtracking.com/v1/states/${state}/current.json`;
   }
