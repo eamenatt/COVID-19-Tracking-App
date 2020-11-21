@@ -1,14 +1,14 @@
 {
   "development": {
     "username": "root",
-    "password": "stay74who4212use",
-    "database": "passport_demo",
+    "password": "mySql@Grif99",
+    "database": "login_db",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
-    "password": null,
+    "password": "mySql@Grif99",
     "database": "database_test",
     "host": "127.0.0.1",
     "dialect": "mysql"
