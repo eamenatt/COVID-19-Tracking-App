@@ -2,3 +2,65 @@ form.signup,
 form.login {
   margin-top: 50px;
 }
+
+h5 { 
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 21px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#app-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+body {
+  background-color: rgb(173, 201, 184);
+}
+
+.container{
+  background-color: white;
+}
+
+#logout-btn {
+  font-size: 23px;
+  margin-left: 15px;
+}
+
+#title, #state {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: rgb(12, 12, 12);
+  margin-bottom: 15px;
+  margin-top: 30px;;
+}
+
+.card {
+ min-width: 150px;
+ max-width: 250px;
+}
+
+#signup-btn {
+  margin-top: 15px;
+ 
+}
+
+#signup-container {
+  min-height: 550px;
+}
+
+#search-btn {
+  margin-top: -10px;
+}
+
+#state2 {
+  margin-top: 25px;
+}
+
+#members-container{
+  padding-bottom: 35px;
+}

@@ -1,14 +1,14 @@
 {
   "development": {
     "username": "root",
-    "password": "",
+    "password": "mySql@Grif99",
     "database": "login_db",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
-    "password": "",
+    "password": "mySql@Grif99",
     "database": "database_test",
     "host": "127.0.0.1",
     "dialect": "mysql"
