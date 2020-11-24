@@ -48,8 +48,8 @@ $(document).ready(() => {
       .catch(handleLoginErr);
   }
 
-  function handleLoginErr(err) {
-    $("#alert .msg").text(err.responseJSON);
+  function handleLoginErr() {
+    $("#alert .msg").text("This account already exists!");
     $("#alert").fadeIn(500);
   }
 });
