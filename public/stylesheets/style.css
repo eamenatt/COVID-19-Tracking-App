@@ -7,10 +7,30 @@ h5 {
   font-weight: bold;
 }
 
+#login-text {
+  font-weight: bold;
+  font-size: 18px;
+}
+
 .card-text {
-  font-size: 21px;
+  font-size: 28px;
   font-weight: bold;
   text-align: center;
+  color: black;
+  font-family: monospace;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+  color: whitesmoke;
+}
+
+.card {
+  border-radius: 25px;
+  background-color: #28a745;
 }
 
 #app-title {
@@ -58,6 +78,35 @@ body {
   margin-top: -10px;
 }
 
+#search-btn, #signup-btn {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 3px #999;
+}
+
+#search-btn:hover, #signup-btn:hover {background-color: #3e8e41}
+
+#search-btn:active, #signup-btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#search-text {
+font-weight: bold;
+font-family: monospace;
+background-color: lightgray;
+}
+
 #state2 {
   margin-top: 25px;
 }
@@ -65,6 +114,9 @@ body {
 #members-container {
   padding: 0px 25px 35px 25px;
 
+}
+
 .footer {
   text-align: center;
 }
+
