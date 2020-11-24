@@ -13,8 +13,7 @@
               </li>
             </ul>
           </div>
-          <a href="/" class="navbar-brand mx-auto d-block text-center order-0 order-md-1" id="app-title">Living
-            with Covid-19</a>
+          <a href="/" class="navbar-brand mx-auto d-block text-center order-0 order-md-1" id="app-title">COVID-19 Tracking App</a>
           <div class="navbar-collapse collapse dual-nav w-50 order-2">
  
           </div>
@@ -22,11 +21,11 @@
       </nav>
       </div>
       <div class="container" id="members-container">
-      <h3 id="title">Covid-19 facts in <span id="state"></span></h3>
+      <h3 id="title">COVID-19 statistics in <span id="state"></span></h3>
       <div class="card-deck">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Positive Cases</h5>
+            <h5 class="card-title">Positive Cases <br> (Since 3/14/2020)</h5>
             <p class="card-text" id="positive-cases"></p>
           </div>
         </div>
@@ -38,19 +37,19 @@
         </div>
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">New Cases in the past 24 hours</h5>
+            <h5 class="card-title">New Cases <br> (past 24 hours)</h5>
             <p class="card-text" id="new-cases24"></p>
           </div>
         </div>
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">New Deaths in the past 24 hours</h5>
+            <h5 class="card-title">New Deaths <br> (past 24 hours)</h5>
             <p class="card-text" id="death-cases24"></p>
           </div>
         </div>
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Total Deaths</h5>
+            <h5 class="card-title">Total Deaths (Since 3/14/2020)</h5>
             <p class="card-text" id="total-deaths"></p>
           </div>
         </div>
@@ -139,6 +138,7 @@
           </div><br>
 
           <button type="button" class="btn btn-secondary" id="search-btn" onclick="stateRelatedInfo()">Search</button>
+          <span id="search-text">Select a new state in the dropdown and click "SEARCH" to see updated information.</span>
 
 
 
