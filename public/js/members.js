@@ -23,6 +23,7 @@ $(document).ready(() => {
 //     }).then(res => console.log(res));
 //   });
 // });
+// eslint-disable-next-line no-unused-vars
 function stateRelatedInfo() {
   const selectElement = document.querySelector("#state2");
   const state2 = selectElement.options[selectElement.selectedIndex].value;
