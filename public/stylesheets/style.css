@@ -64,4 +64,7 @@ body {
 
 #members-container {
   padding: 0px 25px 35px 25px;
+
+.footer {
+  text-align: center;
 }
